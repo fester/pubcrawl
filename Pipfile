@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+overpy = "*"
+jupyter = "*"
+pandas = "*"
+geopandas = "*"
+ipython = "*"
+tornado = "==5.1.1"
+matplotlib = "*"
+descartes = "*"
+scipy = "*"
+scikit-image = "*"
+pillow = "*"
+matplotlib-scalebar = "*"
+
+[requires]
+python_version = "3.7"
